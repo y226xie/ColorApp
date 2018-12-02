@@ -31,6 +31,7 @@ export default class ColorForm extends Component {
             <View style={styles.container}>
                 <TextInput 
                 style={styles.textField}
+                placeholder="Some colors"
                 onChangeText={(text) => this.setState({text})}
                 value={text}
                 />
